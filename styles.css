@@ -1,0 +1,133 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    background: linear-gradient(135deg, #00675B, #38B6AB, #BADFDE);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #00675B;
+}
+
+.container {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+#signatureOutput {
+    margin-top: 20px;
+}
+
+
+#signatureOutput table {
+    width: 650px;
+    border-collapse: collapse;
+}
+
+#signatureOutput table tr:nth-child(2) td {
+    border-top: 0.5pt solid #38B6AB; /* Adiciona uma borda preta apenas na linha entre a linha 1 e linha 2 */
+}
+
+#signatureOutput table td {
+    padding: 10px; /* Adiciona um espaçamento interno */
+}
+
+.coluna1 {
+    border-color: transparent; /* Remove a cor do border */
+}
+
+.name16 {
+    font-size: 16pt;
+    color: #38B6AB;
+}
+
+.toTop {
+    vertical-align: bottom !important;
+}
+
+td {
+    color: #70706f;
+}
+
+button {
+    display: block; /* Certifica-se de que o botão ocupa toda a largura do contêiner */
+    margin: 20px auto; /* Margem superior e inferior de 20px e margem lateral automática para centralizá-lo horizontalmente */
+    background-color: #00675B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #38B6AB;
+  transform: scale(1.05);
+
+}
+.containerLabel {
+    display: flex; /* Altera o layout para flexbox */
+    flex-wrap: nowrap; /* Permite que os elementos quebrem para a próxima linha se não couberem em uma linha */
+    justify-content: space-between;
+}
+
+#name, #email, #department, #operation, #corporatePhone, #corporatePhoneDDD, #corporatePhoneNumber {
+    font-size: 11px;
+    color: #70706f;
+}
+
+
+.phoneMiddle {
+    display: flex; /* Altera o layout para flexbox */
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha se não couberem em uma linha */
+    justify-content: center;
+    margin: 10px;
+}
+
+#corporatePhoneDDD {
+    width: 50px;
+    margin-right: 20px;
+}
+
+#corporatePhoneNumber {
+    width: 150px;
+}
+
+#hasCorporatePhone {
+    accent-color: #00675B;
+}
+#corporatePhoneCheckbox {
+    margin: 6px 0 0 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start
+}
