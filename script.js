@@ -68,7 +68,7 @@ document.getElementById('signatureForm').addEventListener('submit', function(eve
 
   var signature = '<table style="font-family: Calibri; font-size: 9pt;">' +
                   '<tr>' +
-                  '<td class="coluna1" rowspan="2" style="text-align: center; vertical-align: middle;"><img src="https://3geo.io/wordpress/wp-content/uploads/2025/03/logo-25-FINAL-2-05.png" alt="Logo 3Geo" style="width: 190; height: 175px;"></td>' +
+                  '<td class="coluna1" rowspan="2" style="text-align: center; vertical-align: middle;"><img src="https://3geo.io/wordpress/wp-content/uploads/2026/04/logo-com-contorno.png" alt="Logo 3Geo" style="width: 190; height: 70px;"></td>' +
                       '<td style="vertical-align: bottom; width: 240px; max-width: 240px; text-align: left;"><div class="name16">' + name + '</div><br><div style="vertical-align: bottom;"><strong>' + department + '</strong><br>' + email + '</div></td>' +
                       '<td style="vertical-align: bottom; width: 240px; max-width: 240px; text-align: left;"><div class="toTop" style="display: flex; align-items: center;">' + logoLinkedin + logoWeb + logoWpp + '</div>'+ '<div class="toBottom">' + corporatePhoneInfo + phone + '</div></td>' +
                   '</tr>' +
@@ -77,7 +77,7 @@ document.getElementById('signatureForm').addEventListener('submit', function(eve
                       filialCell +
                   '</tr>' +
                   '<tr>' +
-                      '<td colspan="3" style="text-align: center;vertical-align: top;"><img src="https://3geo.io/wordpress/wp-content/uploads/2025/04/assinatura-de-email-FINAL-01.png" alt="Assinatura 3Geo" style="width: 325px; height: auto;"></td>' +
+                      '<td colspan="3" style="text-align: center;vertical-align: top;"><img src="https://3geo.io/wordpress/wp-content/uploads/2026/04/Logo-horizontal-coloridacom-fundo-3.png" alt="Assinatura 3Geo" style="width: 325px; height: auto;"></td>' +
                   '</tr>' +
               '</table>';
 
