@@ -51,7 +51,7 @@ input[type="email"] {
 }
 
 #signatureOutput table tr:nth-child(2) td {
-    border-top: 0.5pt solid #38B6AB; /* Adiciona uma borda preta apenas na linha entre a linha 1 e linha 2 */
+    border-top: 0.5pt solid #00375b; /* Adiciona uma borda preta apenas na linha entre a linha 1 e linha 2 */
 }
 
 #signatureOutput table td {
